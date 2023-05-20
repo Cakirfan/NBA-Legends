@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Container className='text-center'>
       <Image src={nbaLogo} alt="nba-logo" width="200" className='text-center'></Image>
-      <h1 className="text-center fw-bold display-4 my-2">NBA Legends</h1>
+      <h1 className="text-center fw-bold display-3 my-3">NBA Legends</h1>
     </Container>
     
   );

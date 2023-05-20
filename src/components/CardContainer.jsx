@@ -18,7 +18,7 @@ const CardContainer = () => {
     <>
       <Form.Control
         placeholder="Search Player..."
-        className="w-50 m-auto"
+        className="w-75 p-2 fs-4 m-auto"
         type="search"
         onChange={(e) => setSearch(e.target.value)}
       />

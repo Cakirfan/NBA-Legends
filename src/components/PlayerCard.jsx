@@ -16,10 +16,10 @@ const PlayerCard = ({ img, name, statistics }) => {
       {showImage ? (
         <Card.Img variant="top" src={img} className="player-logo" />
       ) : (
-        <ul className="ms-4 my-5">
+        <ul className="ms-2 my-5">
           {statistics.map((item, i) => {
             return (
-              <li className="text-start list-unstyled my-3" key={i}>
+              <li className="text-start list-unstyled my-3 fs-4" key={i}>
                 🏀 {item}
               </li>
             );

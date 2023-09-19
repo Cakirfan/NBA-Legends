@@ -7,7 +7,7 @@ import PlayerCard from "./PlayerCard";
 
 const CardContainer = () => {
   const [search, setSearch] = useState("");
-  console.log(search);
+  // console.log(search);
 
   //? bu alternatif yöntemi kullansaydık jsx içerisinde data yerine filteredData'yı map etmemiz gerekirdi
   //   const filteredData = data
